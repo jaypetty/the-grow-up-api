@@ -1,0 +1,107 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Jasmine Petty",
+            "email": "jasmine@petty.com"
+        },
+        {
+            "id": 2,
+            "name": "Harry Potter",
+            "email": "harry@potter.com"
+        },
+        {
+            "id": 3,
+            "name": "John Flowers",
+            "email": "john@flowers.com"
+        },
+        {
+            "id": 4,
+            "name": "Billy Rose",
+            "email": "billy@rose.com"
+        },
+        {
+            "id": 5,
+            "name": "Heather Bloom",
+            "email": "heather@bloom.com"
+        }
+    ],
+    "plants": [
+        {
+            "id": 1,
+            "name": "Cactus",
+            "wateringRequirement": "once a week",
+            "plantTypeId": 1,
+            "userId": 1
+        },
+        {
+            "id": 2,
+            "name": "Aloe Vera",
+            "wateringRequirement": "once every 2-3 weeks",
+            "plantTypeId": 1,
+            "userId": 1
+        },
+        {
+            "id": 3,
+            "name": "Sunflower",
+            "wateringRequirement": "once a day",
+            "plantTypeId": 2,
+            "userId": 1
+        },
+        {
+            "id": 4,
+            "name": "Mint",
+            "wateringRequirement": "twice a week",
+            "plantTypeId": 3,
+            "userId": 1
+        },
+        {
+            "id": 5,
+            "name": "Yucca",
+            "wateringRequirement": "once every 10 days",
+            "plantTypeId": 4,
+            "userId": 1
+        },
+        {
+            "id": 6,
+            "name": "Orchid",
+            "wateringRequirement": "twice a week",
+            "plantTypeId": 5,
+            "userId": 1
+        }
+    ],
+    "plantTypes": [
+        {
+            "id": 1,
+            "type": "Succulent"
+        },
+        {
+            "id": 2,
+            "type": "Shrub"
+        },
+        {
+            "id": 3,
+            "type": "Herb"
+        },
+        {
+            "id": 4,
+            "type": "Tree"
+        },
+        {
+            "id": 5,    
+            "type": "Flowered Plant "
+        }
+    ],
+    "tasks": [
+        {
+            "id": 1,
+            "plantId": 1,
+            "todoDescription": "Change the fertilizer"
+        },
+        {
+            "id": 2,
+            "plantId": 2,
+            "todoDescription": "Trim dead leaf tips"
+        }
+    ]
+}
